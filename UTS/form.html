@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Formulir</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Formulir Penggemar</h1>
+    <img src="onepicelogo.jpg" alt="Logo One Piece" class="h-card">
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <ul>
+        <li><a href="index.html"><img src="jangkar.jpg" class="icon-jangkar" alt="Jangkar"> Beranda</a></li>
+        <li><a href="form.html"><img src="jangkar.jpg" class="icon-jangkar" alt="Jangkar">Halaman Formulir</a></li>
+        <li><a href="table.html"><img src="jangkar.jpg" class="icon-jangkar" alt="Jangkar">Halaman Tabel</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2>Formulir Penggemar</h2>
+      <form action="submit.html" method="GET">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="birthdate">Tanggal Lahir:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        
+        <label for="favoriteCharacter">Karakter Favorit:</label>
+        <input type="text" id="favoriteCharacter" name="favoriteCharacter">
+        
+        <label for="newsletter">Berlangganan Newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>&copy;One Piece</p>
+  </footer>
+</body>
+</html>
